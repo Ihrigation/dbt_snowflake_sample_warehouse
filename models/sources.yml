@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: learning_database
+    schema: raw
+    tables:
+      - name: customer
+        identifier: raw_customer
+
+      - name: lineitem
+        identifier: raw_lineitem
+
+      - name: nation
+        identifier: raw_nation
+
+      - name: orders
+        identifier: raw_orders
+
+      - name: part
+        identifier: raw_part
+
+      - name: partsupp
+        identifier: raw_partsupp
+
+      - name: region
+        identifier: raw_region
+
+      - name: supplier
+        identifier: raw_supplier
